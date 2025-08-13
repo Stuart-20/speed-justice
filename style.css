@@ -1,5 +1,6 @@
 .main-box{
     border: 2px solid;
+    background: white;
 
 }
 .frist-box{
@@ -13,7 +14,7 @@
 }
 .second-box{
     background: purple;
-    color: wheat;
+    color: white;
 }
 .frist-box img{
     width: 10%;
@@ -95,5 +96,6 @@ a:hover, :active{
     width: 100px;
   }
 }
+
 
 
