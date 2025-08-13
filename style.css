@@ -1,0 +1,99 @@
+.main-box{
+    border: 2px solid;
+
+}
+.frist-box{
+    text-align: center;
+    margin: 0px;
+}
+.frist-box h1,p{
+    margin-top: 0px;
+    margin: 5px;
+    padding-top: 0px;
+}
+.second-box{
+    background: purple;
+    color: wheat;
+}
+.frist-box img{
+    width: 10%;
+    text-align: center;
+    height: auto;
+     padding-bottom: 0px;
+     border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover, :active{
+    text-decoration: underline;
+}
+
+
+.second-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 30px; 
+  flex-wrap: nowrap; 
+  color: white;
+}
+
+.contacts, 
+.content {
+  flex: 1; 
+  min-width: 0; 
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contacts > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts img {
+  width: 30px;
+  height: auto;
+  flex-shrink: 0; 
+}
+
+.contacts p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.content ol {
+  padding-left: 20px;
+}
+
+/* Make it fit nicely on small devices */
+@media (max-width: 480px) {
+  .second-box {
+    gap: 15px; 
+  }
+  .contacts img {
+    width: 25px;
+  }
+  .contacts p, 
+  .content ol, 
+  .content h2 {
+    font-size: 14px;
+  }
+  .frist-box img{
+    width: 100px;
+  }
+}
+
+
