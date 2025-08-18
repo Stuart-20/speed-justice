@@ -6,6 +6,7 @@
     text-align: center;
     margin: 0px;
     color: black;
+    background-color: rgb(251, 251, 252);
 }
 .frist-box h1,p{
     margin-top: 0px;
@@ -96,6 +97,5 @@ a:hover, :active{
     width: 100px;
   }
 }
-
 
 
